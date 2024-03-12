@@ -1,0 +1,130 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Adjust the gradient as needed */
+}
+
+.menu:hover{
+border-bottom: 3px solid black;
+cursor: pointer;
+color: black;
+}
+
+.menu{
+    color: #5C5C5C;
+    font-weight: 500;
+}
+
+#login{
+color: #8A8A8A;
+background-color: #D9D9DB;
+border: none;
+width: auto;
+height: 50px;
+}
+
+.close-btn{
+  border-radius: 30px; 
+  color:white; 
+  background-color: #5C5C5C;
+  position: absolute; 
+  top: -34px; 
+  right: -12px
+}
+
+
+/* modal */
+/* Style the modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 65%;
+  height: 78%;
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 10px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 16px;
+  
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    top: 210px;
+    position: relative;
+    width: 100%;
+    height: 86%;
+
+  }
+
+#c-account{
+  max-width: 50%;
+}
+
+.close-btn{
+  border-radius: 30px;
+    color: white;
+    background-color: #5C5C5C;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 990px) {
+  .modal-content {
+    top: 210px;
+    position: relative;
+    width: 100%;
+    height: 74%;
+    
+  }
+  .close-btn{
+    border-radius: 30px;
+    color: white;
+    background-color: #5C5C5C;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+  }
+}
+
